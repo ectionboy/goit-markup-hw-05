@@ -611,10 +611,11 @@ footer {
   display: block;
   margin-left: auto;
 }
-.modal-icon:hover,
-.modal-icon:active{
+.modal-btn:hover .modal-icon, 
+.modal-btn:active .modal-icon{
   border-radius: 50%;
   background-color: #404BBF;
+  fill: #FFFFFF;
 }
 .is-hidden{
   opacity: 0;
